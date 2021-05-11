@@ -1,0 +1,10 @@
+<html>
+	<body>
+		<h2>Below are the results from the Autograder of your {{fname}} file.</h2>
+		<h3> Score: {{grade}} out of 2</h3>
+		<h4> *************Original Submission*************</h4>
+		{%for i in range(0, length)%}
+			<p> {{lines[i]}} </p>
+		{%endfor%}
+	</body>
+</html>
